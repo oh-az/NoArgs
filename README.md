@@ -72,3 +72,11 @@ The Process Environment Block **(PEB)** is a data structure utilized by Windows 
 
 
 **Option 2**: Download the precompiled  obfuscated injector (ready-to-go) from the [releases page](https://github.com/oh-az/NoArgs/releases/tag/releases).
+
+
+## Refrences:
+
+- https://en.wikipedia.org/wiki/Microsoft_Detours
+- https://github.com/microsoft/Detours
+- https://blog.xpnsec.com/how-to-argue-like-cobalt-strike/
+- https://www.ired.team/offensive-security/code-injection-process-injection/how-to-hook-windows-api-using-c++
