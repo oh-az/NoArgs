@@ -71,7 +71,7 @@ The Process Environment Block **(PEB)** is a data structure utilized by Windows 
 
 
 
-**Option 2**: Download the precompiled  obfuscated injector (ready-to-go) from the [releases page](https://github.com/oh-az/NoArgs/releases/tag/releases).
+**Option 2**: Download the compiled executable (ready-to-go) from the [releases page](https://github.com/oh-az/NoArgs/releases/tag/releases).
 
 
 ## Refrences:
