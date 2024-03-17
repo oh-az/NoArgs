@@ -84,7 +84,7 @@ BOOL WINAPI MyCreateProcessW(LPCWSTR lpApplicationName, LPWSTR lpCommandLine,
     for (int i = 0; i < length; ++i) {
         wcscat(cmdWithSpaces, L" ");
     }
-    AttachConsole(-1);
+    
 
     if (!OriginalCreateProcessW(
         NULL,
@@ -99,6 +99,7 @@ BOOL WINAPI MyCreateProcessW(LPCWSTR lpApplicationName, LPWSTR lpCommandLine,
         &Pi)) {
         return FALSE;
     }
+    AttachConsole(-1);
 
     if ((STATUS = pNtQueryInformationProcess(Pi.hProcess, ProcessBasicInformation, &PBI, sizeof(PROCESS_BASIC_INFORMATION), &uRetern)) != 0) {
         return FALSE;
