@@ -9,6 +9,11 @@
   Twitter: <a href="https://x.com/AzizWho">@AzizWho</a>
 </p>
 
+## Disclaimer: Educational Use Only
+
+## This tool is intended solely for educational purposes. I am not liable for any misuse and all users must adhere to applicable laws. Illegal use is prohibited.
+
+
 ## Introduction
 
 NoArgs is a tool designed to dynamically spoof and conceal process arguments while staying undetected. It achieves this by hooking into Windows APIs to dynamically manipulate the Windows internals on the go. This allows NoArgs to alter process arguments discreetly.
